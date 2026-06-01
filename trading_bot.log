@@ -1,0 +1,9 @@
+2025-06-01 10:12:03,451 [INFO] Placing MARKET BUY order for 0.001 BTCUSDT
+2025-06-01 10:12:03,452 [DEBUG] Request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1748765523451}
+2025-06-01 10:12:03,891 [DEBUG] Response: {'orderId': 389201847, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '67423.10', 'side': 'BUY', 'type': 'MARKET'}
+2025-06-01 10:12:03,892 [INFO] Order success | ID=389201847 status=FILLED
+
+2025-06-01 10:15:44,210 [INFO] Placing LIMIT SELL order for 0.001 BTCUSDT
+2025-06-01 10:15:44,211 [DEBUG] Request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000, 'timeInForce': 'GTC', 'timestamp': 1748765744210}
+2025-06-01 10:15:44,598 [DEBUG] Response: {'orderId': 389201901, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.000', 'avgPrice': '0', 'side': 'SELL', 'type': 'LIMIT', 'price': '70000'}
+2025-06-01 10:15:44,599 [INFO] Order success | ID=389201901 status=NEW
